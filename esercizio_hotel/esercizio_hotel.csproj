@@ -46,17 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\esercizio_hotel.cs">
+    <Compile Include="esercizio_hotel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="..\..\..\..\Desktop\esercizio_hotel.Designer.cs">
-      <DependentUpon>esercizio_hotel.cs</DependentUpon>
-    </Compile>
+    <Compile Include="esercizio_hotel.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\..\Desktop\esercizio_hotel.resx">
-      <DependentUpon>esercizio_hotel.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="esercizio_hotel.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
